@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Post;
 use Illuminate\Http\Request;
 
 class PostController extends Controller
@@ -10,7 +11,7 @@ class PostController extends Controller
     //
     public function index()
     {
-        //$channels =Channel::all();
+//        $channels =Post::all();
         return view('posts.index');
     }
 }

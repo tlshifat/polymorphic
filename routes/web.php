@@ -1,5 +1,6 @@
 <?php
 
+use App\PostCard;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -18,3 +19,17 @@ Route::get('/', function () {
 });
 Route::get('/channel', "ChannelController@index");
 Route::get('/posts', "PostController@index");
+Route::get('/facade', function (){
+    $postCard = new \App\Service\PostCardService('us',1,1);
+    $postCard->hello('ok','sss');
+});
+
+Route::get('/facadeway', function (){
+   PostCard::hello('first','second');
+});
+
+
+
+Route::get('/macross', function (){
+    dd(\Illuminate\Support\Str::yes('testsss'));
+});

@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="186baf2f-1b3f-4c0b-a2fa-5740f256e2f5" name="Default Changelist" comment="" />
+    <list default="true" id="186baf2f-1b3f-4c0b-a2fa-5740f256e2f5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/Filter/QueryFilter/Active.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Filter/QueryFilter/Limit.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Mixin/StrMixin.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/PostCard.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Service/PostCardService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Service/QueryService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PostController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PostController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Views/Composers/ChannelComposer.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Views/Composers/ChannelComposer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/Posts/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Posts/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -158,7 +171,9 @@
       <option name="presentableId" value="Default" />
       <updated>1595070653677</updated>
       <workItem from="1595070665584" duration="3917000" />
-      <workItem from="1595081160140" duration="2802000" />
+      <workItem from="1595081160140" duration="3630000" />
+      <workItem from="1595093102085" duration="3194000" />
+      <workItem from="1595126962197" duration="2784000" />
     </task>
     <servers />
   </component>
@@ -170,17 +185,21 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="122" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1595073983302" />
-    <state x="402" y="198" key="NewPhpClassDialog" timestamp="1595073918697">
+    <state x="402" y="198" key="NewPhpClassDialog" timestamp="1595129136536">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="402" y="198" key="NewPhpClassDialog/0.0.1366.728@0.0.1366.728" timestamp="1595073918697" />
+    <state x="402" y="198" key="NewPhpClassDialog/0.0.1366.728@0.0.1366.728" timestamp="1595129136536" />
     <state x="784" y="298" key="NewPhpFileDialog" timestamp="1595071324304">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="784" y="298" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1595071324304" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1595071059486">
+    <state x="390" y="120" width="586" height="488" key="find.popup" timestamp="1595127794564">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1595071059486" />
+    <state x="390" y="120" width="586" height="488" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1595127794564" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1595127810205">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1595127810205" />
   </component>
 </project>

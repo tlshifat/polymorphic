@@ -11,7 +11,7 @@
 <body>
 <form action="#">
 
-@include("partials.channel.dropdown");
+@include("partials.channel.list");
 </form>
 </body>
 </html>

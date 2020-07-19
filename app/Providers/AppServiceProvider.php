@@ -4,8 +4,11 @@ namespace App\Providers;
 
 use App\Channel;
 use App\Http\Views\Composers\ChannelComposer;
+use App\Mixin\StrMixin;
+use App\Service\PostCardService;
 use Illuminate\Support\Facades\View;
 use Illuminate\Support\ServiceProvider;
+use Illuminate\Support\Str;
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -38,6 +41,20 @@ class AppServiceProvider extends ServiceProvider
 
 //        Option 4 partials
         View::composer("partials.*",ChannelComposer::class);
+
+        $this->app->bind('PostCard',function (){
+            return new \App\Service\PostCardService('us',1,1);
+        });
+
+        //Macros
+
+        Str::macro('ok',function ($name){
+            return $name;
+        });
+
+        Str::mixin(new StrMixin());
+
+
 
     }
 }
